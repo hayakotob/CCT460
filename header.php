@@ -5,11 +5,12 @@
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
+ * THIS CODE IS TAKEN FROM PARENT THEME : NO EDITS YET
  * @package _s
  */
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -22,9 +23,16 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
+	
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
+	
+				<?php if ( get_header_image ){ ?>
+					<header id="masthead" class="site-header" style="background-image: url(<?php header_image(); ?>)" role="banner">
+				 <?php } else { ?>
+					 <header id="masthead" class="site-header" role="banner">
+				 <?php }?>
+						  
+			
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
@@ -46,5 +54,5 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-
+      
 	<div id="content" class="site-content">

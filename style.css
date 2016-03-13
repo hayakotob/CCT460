@@ -2,7 +2,7 @@
 Theme Name: cd_s
 Theme URI: http://phoenix.sheridanc.on.ca
 Description: Custom child theme for the Underscore theme
-Author: Haya Kotob
+Author: Group F
 Author URI: http://phoenix.sheridanc.on.ca/~ccit3466
 Version: 1.0
 Template: _s-master
@@ -14,7 +14,8 @@ Template: _s-master
 .site-branding {text-align: right;
 }
 
-.site-header {background-color: #000000;}
+.site-header {background-color: #000000;
+background-size: cover;}
 
 #site-navigation { 
 border: #000000 dotted 2px;
@@ -79,4 +80,9 @@ a:hover {
 	text-decoration:none;}
 
 .menu-toggle {display: none;}
+
+.sub-menu {opacity: 2;
+background-color: #000000;
+padding-top: 30px;}
+
 
