@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
 Theme Name: cd_s
 Theme URI: http://phoenix.sheridanc.on.ca
@@ -9,49 +8,76 @@ Version: 1.0
 Template: _s-master
 */
 
+#page {background-color: #f5f5dc;
+	height:950px;}
 
-#page {background-color: #f5f5dc;}
+.site-branding {text-align: right;
+}
 
-.site-branding {text-align: center;}
+.site-header {background-color: #000000;}
 
 #site-navigation { 
-float: left;
 border: #000000 dotted 2px;
-width: 250px;
-height: 500px;
-background-color: #cdebf9;
-padding-top: 50px;
-margin-left: 10px;
+background-color: #000000;
 }
 
-#main {float: right;
-width: 700px;}
+#main {
+width: 60%;
+background-color: #f5f5dc;
+padding-top: 50px;
+padding-left: 500px;
+margin-left: 10px;
+margin-right: 200px;
+height: 400px;
+}
 
-.site-info {margin-top: 500px;}
+.entry-content{
+	padding-left:50px;
+}
+
+img {
+padding-left: 50px;
+background-color:#cdebf9;
+}
+
+.site-info {margin-top: 200px;
+float: right;}
+
+.site-title {color: white;
+font-family:'Kaushan Script', cursive;
+font-size: 2.4em;
+text-transform: uppercase;
+height: 200px;
+padding-right: 30px;
+}
 
 a:link {
-	color: #000000;
+	color: white;
+	text-transform:uppercase;
+	text-decoration:none;
 }
 
-a:visited {color: #000000;}
+a:visited {
+	color: white;
+	text-decoration:none;}
 
 h1{ 
 font-family: 'Kaushan Script', cursive;
 }
 
-a:hover {color: #800000;}
+
+li{
+list-style-type: none;
+margin:0 0 10px 0;
+font-family: 'Kaushan Script', cursive;
+padding-right: 30px;
+display: inline;
+}
+
+a:hover {
+	color: #800000;
+	text-decoration:none;}
 
 .menu-toggle {display: none;}
 
 .skip-link {display: none;}
-=======
-/*
-Theme Name: _Child Theme
-Theme URI: http://wordpress:8888/
-Description: Custom child theme for the Underscore theme
-Author: Haya Kotob
-Author URI: http://phoenix.sheridanc.on.ca/~ccit3466
-Version: 1.0
-Template: _s
-*/
->>>>>>> origin/master
