@@ -981,7 +981,6 @@ padding-right: 30px;
 }
 
 
-
 h1{ 
 font-family: 'Kaushan Script', cursive;
 }
@@ -995,17 +994,64 @@ padding-right: 30px;
 display: inline;
 }
 
-
 .menu-toggle {display: none;}
 
 .sub-menu {opacity: 2;
 background-color: #000000;
 padding-top: 30px;}
-<<<<<<< HEAD
 
 #colophon {background-color: #000000;
 margin-top:200px;}
 
+ .mobile-only{
+display: none;}
+
+ .menu-text{
+display:none;} 
+
+/*anything above this line is for any resolution*/
+@media screen and (max-width: 600px)
+/*for fablets and mobile resolutions*/
+.mobile-only{
+display:block;}
+
+#menu-main-items{
+display:none;}
+
+.toggled #menu-main-items{
+display:block;
+}
+
+@media screen and (max-width: 750px){
+/*media querty for up to 750px for ipad portrait orientation*/
+#primary
+#secondary,
+#widgets{
+width:100%;
+}
+
+#widgets .column{
+margin: 0 2.5% 1em;
+width:45%;
+}
+
+#widgets.column: last-child{
+margin-right: 2.5%;
+}
+	
+@media screen and (max width:480px){
+/*media querty for up to 750px for iphone portrait orientation*/
+#widgets .column{
+margin: 0 0 1em;
+	width:100%;}
+	
+#widgets .column: last-child{
+margin-right: 0;
+}
+#primary img{
+margin: 0 0 1em;
+	max-width: 100%
+}	
 
 
 
@@ -1015,5 +1061,3 @@ margin-top:200px;}
 
 
 
-=======
->>>>>>> origin/master
