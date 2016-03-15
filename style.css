@@ -951,7 +951,7 @@ background-color: #fff;
 }
 
 #main {
-width: 60%;
+width: 90%;
 background-color: #f5f5dc;
 padding-top: 50px;
 padding-left: 500px;
@@ -1050,21 +1050,17 @@ margin-right: 2.5%;
 @media screen and (max width:480px){
 /*media querty for up to 750px for iphone portrait orientation*/
 
-#site-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+#widgets .column{
+margin: 0 0 1em;
+	width:100%;}
+	
+#widgets .column: last-child{
+margin-right: 0;
 }
 
-.entry-content {
-width: 60%;
-background-color: #f5f5dc;
-padding-top: 50px;
-padding-left: 500px;
-margin-left: 10px;
-margin-right: 200px;
-height: 400px;
+#primary img{
+margin: 0 0 1em;
+	max-width: 100%
 }
 
 
