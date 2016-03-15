@@ -1003,6 +1003,13 @@ padding-top: 30px;}
 #colophon {background-color: #000000;
 margin-top:200px;}
 
+#respond {display: none;}
+.entry-meta {display: none;}
+
+
+
+
+/* Making our site Responsive*/
  .mobile-only{
 display: none;}
 
@@ -1030,6 +1037,7 @@ display:block;
 width:100%;
 }
 
+
 #widgets .column{
 margin: 0 2.5% 1em;
 width:45%;
@@ -1053,7 +1061,6 @@ margin-right: 0;
 margin: 0 0 1em;
 	max-width: 100%
 }	
-
 
 
 
