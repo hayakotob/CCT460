@@ -1049,22 +1049,27 @@ margin-right: 2.5%;
 	
 @media screen and (max width:480px){
 /*media querty for up to 750px for iphone portrait orientation*/
-#widgets .column{
-margin: 0 0 1em;
-	width:100%;}
-	
-#widgets .column: last-child{
-margin-right: 0;
-}
 
-#primary img{
-margin: 0 0 1em;
-	max-width: 100%
-}	
+#site-navigation {
+	height" 70px;
+}
 
 .entry-content {
-	width: 80px;
+	height: auto;
+	width: 80%;
 }
+
+.entry-content-wrap {
+	height: auto;
+	width: 80%;
+}
+
+h2.entry-title {
+	margin-left: 10%;
+}
+
+
+
 
 
 
