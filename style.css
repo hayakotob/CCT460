@@ -1100,6 +1100,15 @@ margin: 0 0 1em;
 	h2.entry-title {
 		margin-right: 27%;
 	}
+	.entry-content {
+		width: 60%;
+		padding-top: 50px;
+		padding-left:100px;
+		margin-left:10px;
+		margin-right: 200px;
+		height: 400px;
+	}	
+
 	.entry-content-about a {
 		font-size: 2.65em;
 	}
@@ -1129,14 +1138,6 @@ margin: 0 0 1em;
 		height: auto;
 	}
 	
-	.main {
-		width: 60%;
-		padding-top: 50px;
-		padding-left:100px;
-		margin-left:10px;
-		margin-right: 200px;
-		height: 400px;
-	}
 	.main-navigation.toggled li {
 		border-top: 1px solid white;
 		border-bottom: 1px solid white;
