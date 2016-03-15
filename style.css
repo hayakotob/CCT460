@@ -1100,14 +1100,15 @@ margin: 0 0 1em;
 	h2.entry-title {
 		margin-right: 27%;
 	}
-	.entry-content {
+
+	.box-sizing {
 		width: 60%;
 		padding-top: 50px;
 		padding-left:100px;
 		margin-left:10px;
 		margin-right: 200px;
 		height: 400px;
-	}	
+	}
 
 	.entry-content-about a {
 		font-size: 2.65em;
