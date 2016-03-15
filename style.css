@@ -1077,12 +1077,8 @@ margin: 0 0 1em;
 	
 	.entry-content {
 		width: 80%;
-		padding-top: 50px;
-		padding-left:10px;
-		padding-bottom: 50px;
-		margin-left:10px;
 	}
-	
+
 	.entry-content-featured a {
 		font-size: 0.85em;
 	}
