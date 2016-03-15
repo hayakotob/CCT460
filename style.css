@@ -1075,13 +1075,12 @@ margin: 0 0 1em;
 		height: 400px;
 	}
 	
-	.entry-content-wrap {
-		width: 60%;
+	.entry-content {
+		width: 80%;
 		padding-top: 50px;
-		padding-left:100px;
+		padding-left:10px;
+		padding-bottom: 50px;
 		margin-left:10px;
-		margin-right: 200px;
-		height: 400px;
 	}
 	
 	.entry-content-featured a {
