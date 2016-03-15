@@ -1065,26 +1065,14 @@ margin: 0 0 1em;
 @media only screen and (min-width: 680px) and (max-width: 731px) {
 	#site-navigation {
 		height: 70px;
-	}
-	a.learnmore {
-		font-size: 1.9em;
-	}
-	a.promoted-title {
-		font-size: 2.5em;
-		position: relative;
-		left: 22%;
-	}
-	a.promoted-title:hover {
-		text-decoration: underline;
-	}
-	.slide-txt {
-		margin: 25% 0 0 25%;
-		text-align: center;
-		width: 50%;
-	}
+
 	.entry-content-featured {
-		height: 475px;
-		width: 48%;
+		width: 60%;
+		padding-top: 50px;
+		padding-left:100px;
+		margin-left:10px;
+		margin-right: 200px;
+		height: 400px;
 	}
 	.entry-content-featured a {
 		font-size: 0.85em;
@@ -1101,14 +1089,7 @@ margin: 0 0 1em;
 		margin-right: 27%;
 	}
 
-	#main {
-		width: 60%;
-		padding-top: 50px;
-		padding-left:100px;
-		margin-left:10px;
-		margin-right: 200px;
-		height: 400px;
-	}
+
 
 	.entry-content-about a {
 		font-size: 2.65em;
