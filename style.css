@@ -534,24 +534,24 @@ text-decoration: none;
 }
 
 a:hover {
-	color: #800000;
+	color: #fff;
 	text-decoration:none;}
 }
 
 a:link {
-	color: #fff;
+	color: #800000;
 	text-transform:uppercase;
 	text-decoration:none;
 }
 
 a:visited {
-	color: #fff;
+	color: #800000;
 	text-decoration:none;}
 	
 a:hover,
 a:focus,
 a:active {
-	color: #fff;
+	color: #800000;
 }
 
 a:focus {
@@ -946,8 +946,7 @@ object {
 background-size: cover;}
 
 #site-navigation { 
-border: #000000 dotted 2px;
-background-color: #000000;
+background-color: #fff;
 }
 
 #main {
@@ -996,8 +995,8 @@ display: inline;
 
 .menu-toggle {display: none;}
 
-.sub-menu {opacity: 2;
-background-color: #000000;
+.sub-menu {opacity: 1;
+background-color: #fff;
 padding-top: 30px;}
 
 #colophon {background-color: #000000;

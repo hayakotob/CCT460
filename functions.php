@@ -162,3 +162,21 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// Create a theme editing page
+add_action('admin_menu', 'hcw_page_add');
+function hcw_page_add () {
+	add_submenu_page( 
+		'themes.php',
+		'My Options',
+		'My Options',
+		'myoptions',
+		'my_page_options'
+	);
+}
+function hcw_settings_init () { 
+register_setting( 'myoptions', 'hcw_options_settings')
+}
+	
+
+
