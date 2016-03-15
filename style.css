@@ -1050,14 +1050,14 @@ margin-right: 2.5%;
 @media screen and (max width:480px){
 /*media querty for up to 750px for iphone portrait orientation*/
 
-.main-navigation {
+#site-navigation {
 	clear: both;
 	display: block;
 	float: left;
 	width: 100%;
 }
 
-#main {
+.entry-content {
 width: 60%;
 background-color: #f5f5dc;
 padding-top: 50px;
@@ -1067,9 +1067,6 @@ margin-right: 200px;
 height: 400px;
 }
 
-.entry-content{
-	padding-left:50px;
-}	
 
 
 
