@@ -951,7 +951,7 @@ background-color: #fff;
 }
 
 #main {
-width: 90%;
+width: 60%;
 background-color: #f5f5dc;
 padding-top: 50px;
 padding-left: 500px;
@@ -962,6 +962,7 @@ height: 400px;
 
 .entry-content{
 	padding-left:50px;
+	width: 80%;
 }
 
 img {
