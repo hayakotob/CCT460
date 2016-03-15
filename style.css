@@ -936,6 +936,7 @@ object {
 	display: block;
 }
 
+/*Styles added by Group F members*/
 #page {background-color: #f5f5dc;
 	height:950px;}
 
@@ -1047,10 +1048,12 @@ margin: 0 0 1em;
 #widgets .column: last-child{
 margin-right: 0;
 }
+
 #primary img{
 margin: 0 0 1em;
 	max-width: 100%
 }	
+
 
 
 
