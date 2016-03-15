@@ -1128,6 +1128,15 @@ margin: 0 0 1em;
 	#site-navigation.toggled {
 		height: auto;
 	}
+	
+	.main {
+		width: 60%;
+		padding-top: 50px;
+		padding-left:100px;
+		margin-left:10px;
+		margin-right: 200px;
+		height: 400px;
+	}
 	.main-navigation.toggled li {
 		border-top: 1px solid white;
 		border-bottom: 1px solid white;
