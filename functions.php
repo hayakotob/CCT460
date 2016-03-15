@@ -120,6 +120,16 @@ function _s_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+// Register a sidebar in footer area
+register_sidebar( array(
+'name' => 'Footer Sidebar',
+'id' => 'footer-sidebar',
+'description' => 'This is a sidebar that appears in the footer',
+'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+'after_widget' => '</aside>',
+'before_title' => '<h3 class="widget-title">',
+'after_title' => '</h3>',
+) );
 add_action( 'widgets_init', '_s_widgets_init' );
 
 /**
@@ -171,3 +181,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/* Calling options.php This file has all the 
+information required to create an options page*/
+require get_stylesheet_directory(). '/options/options.php';
+
+
+
+

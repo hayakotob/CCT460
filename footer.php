@@ -11,7 +11,9 @@
 
 ?>
 
-	</div><!-- #content -->
+	<div class="bottomMenu"><!-- adding footer -->
+              <?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
+    </div>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">

@@ -16,9 +16,48 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+			<div id="gridcontainer">
+				<?php 
+				//here we will do custom word loops; we will make posts appear on the main page in a grid format
+					$counter = 1; //start counter
+					$grids = 2; //Grids per row - source: wpbeginner.com
+					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+					$args = array('posts_per_page' => 6, 'paged' => $paged, 'category'=>190 );
+					query_posts($args);
+					if(have_posts()) :  while(have_posts()) :  the_post();
+				?>
+				<?php // Left Side
+				if($counter == 1) :
+				?>
+					<div class="griditemleft">
+					<div class="postimage">
+				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('category-thumbnail'); ?></a>
+					</div>
+					<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+					</div>
+				<?php // Right Side
+					elseif($counter == $grids) :
+				?>
+					<div class="griditemright">
+						<div class="postimage">
+							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('category-thumbnail'); ?></a>
+						</div>
+							<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+						</div>
+					<div class="clear"></div>
+				<?php
+				$counter = 0;
+				endif;
+				?>
+				<?php
+				$counter++;
+				endwhile; ?>
+				<?php the_posts_pagination( $args ); ?>
+				<?php endif;
+				?>
 		<?php
-		if ( have_posts() ) :
+		if ( have_posts(
+		) ) :
 
 			if ( is_home() && ! is_front_page() ) : ?>
 				<header>

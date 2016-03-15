@@ -5,7 +5,7 @@
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- * THIS CODE IS TAKEN FROM PARENT THEME : NO EDITS YET
+ * THIS CODE IS TAKEN FROM PARENT THEME : We allowed the user to set a header image
  * @package _s
  */
 
@@ -33,7 +33,7 @@
 				 <?php }?>
 						  
 		
-		<div class="site-branding"><!-- image retrieved from www.freeimages.com -->
+		<div class="site-branding"><!-- image retrieved from www.freeimages.com; code retrieved from custom-header.php; this allows user to set header image -->
 			<?php
 			if ( is_front_page() && is_home() ) : ?> 
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

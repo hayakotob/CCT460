@@ -1,0 +1,4 @@
+Assignment Title: Wordpress Theme - Assignment 2
+Group F: Haya Kotob, Waiz Akhtar, Chrishanthi Kumarasamy
+Phoenix install: phoenix.sheridanc.on.ca/~ccit3466
+Github Account: github.com/hayakotob/CCT460
