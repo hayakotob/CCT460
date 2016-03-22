@@ -266,12 +266,13 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-body,
+body
+}
 button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: #80000;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
@@ -769,7 +770,9 @@ a:active {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 1.5em;
+	margin-left: 425px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /* Make sure select elements fit in widgets. */
@@ -955,7 +958,7 @@ background-color: #fff;
 }
 
 img {
-padding-left: 50px;
+padding-left: 0px;
 background-color:#cdebf9;
 }
 
@@ -1006,7 +1009,7 @@ background-color: #fff;
 padding-top: 30px;}
 
 #colophon {background-color: #000000;
-margin-top:200px;}
+margin-top:auto;}
 
 #respond {display: none;}
 .entry-meta {display: none;}
@@ -1041,10 +1044,18 @@ margin-top:200px;}
 	margin: 10px;
 	width: 200px;
 	border: solid;
-	border-color: #33CCFF;
+	border-color: #800000;
 }
 
-
+#post-1973 {
+	display: none;
+}
+#post-1970 {
+	display: none;
+}
+#post-1957 {
+	display: none;
+}
 #post-1954 {
 	display: none;
 }
@@ -1054,12 +1065,9 @@ margin-top:200px;}
 #post-1907 {
 	display: none;
 }
-#post-1970 {
-	display: none;
-}
-#post-1973 {
-	display: none;
-}
+
+
+
 
 /* Making our site Responsive*/
  .mobile-only{
@@ -1097,6 +1105,15 @@ display:block;
 	padding-right: 10px;
 }
 	
+#post-1973 {
+	display: none;
+}
+#post-1970 {
+	display: none;
+}
+#post-1957 {
+	display: none;
+}
 #post-1954 {
 	display: none;
 }
@@ -1106,15 +1123,9 @@ display:block;
 #post-1907 {
 	display: none;
 }
-#post-1970 {
-	display: none;
-}
-#post-1973 {
-	display: none;
-}
-#post-1957 {
-	display: none;
-}
+	
+	
+	
 
 @media screen and (max-width: 1450px)
 /*for fablets and mobile resolutions*/
@@ -1144,6 +1155,15 @@ display:block;
 	padding-right: 10px;
 }
 	
+#post-1973 {
+	display: none;
+}
+#post-1970 {
+	display: none;
+}
+#post-1957 {
+	display: none;
+}
 #post-1954 {
 	display: none;
 }
@@ -1153,15 +1173,9 @@ display:block;
 #post-1907 {
 	display: none;
 }
-#post-1970 {
-	display: none;
-}
-#post-1973 {
-	display: none;
-}
-#post-1957 {
-	display: none;
-}
+	
+	
+	
 
 @media screen and (max-width: 1450px)
 /*for fablets and mobile resolutions*/
@@ -1191,6 +1205,15 @@ display:block;
 	padding-right: 10px;
 }
 	
+#post-1973 {
+	display: none;
+}
+#post-1970 {
+	display: none;
+}
+#post-1957 {
+	display: none;
+}
 #post-1954 {
 	display: none;
 }
@@ -1200,15 +1223,9 @@ display:block;
 #post-1907 {
 	display: none;
 }
-#post-1970 {
-	display: none;
-}
-#post-1973 {
-	display: none;
-}
-#post-1957 {
-	display: none;
-}
+	
+	
+	
 
 @media screen and (max-width: 750px){
 /*media querty for up to 750px for ipad portrait orientation*/

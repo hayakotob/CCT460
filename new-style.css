@@ -1,0 +1,62 @@
+.widget {
+	background-color: #ffffcc;
+	width: 450px;
+	border: dashed;
+}
+
+.widget-area {
+	background-color: #ffffcc;
+}
+
+h2.widget-title {
+  color: #80000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 275%;
+  margin-bottom: 1%;
+  text-align: center;
+  text-decoration: none;
+}
+ul.hcw_widget {
+  margin-left: 0;
+}
+ul.hcw_widget li {
+  background-color: transparent;
+  border-bottom: 1px solid #000d1a;
+  height: auto;
+  margin:0 0 10px 0; 
+  list-style:none;
+  line-height:150%;
+  padding: 0 2% 0 2%;
+}
+ul.hcw_widget img {
+  border: 1px solid #000d1a;
+  height: auto;
+  margin-bottom: 1%;
+  width: auto;
+}
+ul.hcw_widget li a {
+  color: #80000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 125%;
+  margin-left: 1%;
+  text-decoration: none;
+}
+ul.hcw_widget li a:hover {
+  text-decoration: underline;
+}
+ul.hcw_widget li span {
+  color: #000d1a;
+  display: block;
+  font-family: "MS serif", Times, Georgia;
+  font-size: 105%;
+  margin: 1% 0 1% 2%;
+}
+a.read-more {
+  font-size: 100em;
+}
+a.widgetmore p {
+  font-size: 50%;
+  margin: 0;
+}
